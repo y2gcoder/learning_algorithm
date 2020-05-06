@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="" />
+    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +12,20 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bXH6GIt4ARYRUbkUgZvV45Zx3G" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,17 +33,88 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Main" />
+  <component name="RunManager" selected="Application.SumOf">
+    <configuration name="SumFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumFor" />
       <module name="learning_algorithm" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumForEx" />
+      <module name="learning_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumGauss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumGauss" />
+      <module name="learning_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumOf" />
+      <module name="learning_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumWhile" />
+      <module name="learning_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SumForEx" />
+      <item itemvalue="Application.SumFor" />
+      <item itemvalue="Application.SumGauss" />
+      <item itemvalue="Application.SumOf" />
+      <item itemvalue="Application.SumWhile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SumOf" />
+        <item itemvalue="Application.SumGauss" />
+        <item itemvalue="Application.SumForEx" />
+        <item itemvalue="Application.SumFor" />
+        <item itemvalue="Application.SumWhile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,7 +127,19 @@
       <option name="presentableId" value="Default" />
       <updated>1588771340950</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1588771759194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588771759194</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="815" y="417" key="Github.ShareDialog" timestamp="1588771552068">
@@ -56,13 +150,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="258" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588771570153" />
+    <state width="1340" height="282" key="GridCell.Tab.0.bottom" timestamp="1588777190126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
+    <state width="1340" height="282" key="GridCell.Tab.0.center" timestamp="1588777190126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
+    <state width="1340" height="282" key="GridCell.Tab.0.left" timestamp="1588777190126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
+    <state width="1340" height="282" key="GridCell.Tab.0.right" timestamp="1588777190126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1588771497789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588771497789" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588771511695">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588771779834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588771511695" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588771779834" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588776046954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588776046954" />
   </component>
 </project>
