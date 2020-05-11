@@ -5,7 +5,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~31p 3">
+    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~40p 1장 끝">
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/Add99TableEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/Difference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/Digits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/DigitsNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/Multi99Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/Multi99TableEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/NumPira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/StarPira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/Trangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/chap01/TriangleLB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +53,9 @@
       <recent name="C:\Users\Yang\IdeaProjects\learning_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumForPos">
-    <configuration name="SumFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumFor" />
+  <component name="RunManager" selected="Application.NumPira">
+    <configuration name="NumPira" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.NumPira" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumForEx" />
+    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.Square" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumForPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumForPos" />
+    <configuration name="StarPira" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.StarPira" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumGauss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumGauss" />
+    <configuration name="Trangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.Trangle" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.SumOf" />
+    <configuration name="TriangleLB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap01.TriangleLB" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -109,19 +120,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SumForEx" />
-      <item itemvalue="Application.SumFor" />
-      <item itemvalue="Application.SumGauss" />
-      <item itemvalue="Application.SumOf" />
-      <item itemvalue="Application.SumForPos" />
+      <item itemvalue="Application.Square" />
+      <item itemvalue="Application.TriangleLB" />
+      <item itemvalue="Application.Trangle" />
+      <item itemvalue="Application.StarPira" />
+      <item itemvalue="Application.NumPira" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumForPos" />
-        <item itemvalue="Application.SumOf" />
-        <item itemvalue="Application.SumGauss" />
-        <item itemvalue="Application.SumForEx" />
-        <item itemvalue="Application.SumFor" />
+        <item itemvalue="Application.NumPira" />
+        <item itemvalue="Application.StarPira" />
+        <item itemvalue="Application.Trangle" />
+        <item itemvalue="Application.TriangleLB" />
+        <item itemvalue="Application.Square" />
       </list>
     </recent_temporary>
   </component>
@@ -184,9 +195,14 @@
     <MESSAGE value="~31p" />
     <MESSAGE value="~31p 2" />
     <MESSAGE value="~31p 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="~31p 3" />
+    <MESSAGE value="~40p 1장 끝" />
+    <option name="LAST_COMMIT_MESSAGE" value="~40p 1장 끝" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1589202254309">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1589202254309" />
     <state x="815" y="417" key="Github.ShareDialog" timestamp="1588771552068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,22 +211,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="258" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588771570153" />
-    <state width="1340" height="282" key="GridCell.Tab.0.bottom" timestamp="1588777190126">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589209942612">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
-    <state width="1340" height="282" key="GridCell.Tab.0.center" timestamp="1588777190126">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589209942612" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589209942612">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
-    <state width="1340" height="282" key="GridCell.Tab.0.left" timestamp="1588777190126">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589209942612" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589209942611">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
-    <state width="1340" height="282" key="GridCell.Tab.0.right" timestamp="1588777190126">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589209942611" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589209942612">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589209942612" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1588771497789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,6 +239,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588859090708" />
+    <state x="678" y="167" key="new project wizard" timestamp="1589205600497">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="678" y="167" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589205600497" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588776046954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
