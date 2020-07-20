@@ -5,8 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.104 보초법 전">
+    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.110p">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/chap03/SeqSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/chap03/SeqSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,13 @@
       <recent name="C:\Users\Yang\IdeaProjects\learning_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeqSearchSen">
-    <configuration name="PhysicalExamination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap02.PhysicalExamination" />
+  <component name="RunManager" selected="Application.BinSearch">
+    <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.BinSearch" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.chap02.*" />
+          <option name="PATTERN" value="com.algorithm.chap03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +118,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PhysicalExamination" />
       <item itemvalue="Application.PhysicalExaminationEx" />
       <item itemvalue="Application.YMD" />
       <item itemvalue="Application.SeqSearch" />
       <item itemvalue="Application.SeqSearchSen" />
+      <item itemvalue="Application.BinSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinSearch" />
         <item itemvalue="Application.SeqSearchSen" />
         <item itemvalue="Application.SeqSearch" />
         <item itemvalue="Application.YMD" />
         <item itemvalue="Application.PhysicalExaminationEx" />
-        <item itemvalue="Application.PhysicalExamination" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +159,8 @@
       <workItem from="1595087390118" duration="1203000" />
       <workItem from="1595202157331" duration="801000" />
       <workItem from="1595245281845" duration="1134000" />
+      <workItem from="1595246442969" duration="40000" />
+      <workItem from="1595255580758" duration="1259000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1588771759194</created>
@@ -264,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595202966355</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="~ p.110p">
+      <created>1595246467250</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595246467250</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +308,8 @@
     <MESSAGE value="~ 93p 실습 2-14 복습 전" />
     <MESSAGE value="~ 93p" />
     <MESSAGE value="~ p.104 보초법 전" />
-    <option name="LAST_COMMIT_MESSAGE" value="~ p.104 보초법 전" />
+    <MESSAGE value="~ p.110p" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ p.110p" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="219" key="#Plugins" timestamp="1594945144186">
@@ -329,30 +340,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="258" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588771570153" />
-    <state width="1748" height="300" key="GridCell.Tab.0.bottom" timestamp="1595246420100">
+    <state width="1748" height="300" key="GridCell.Tab.0.bottom" timestamp="1595256362502">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977169" />
-    <state width="1748" height="300" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1595246420100" />
-    <state width="1748" height="300" key="GridCell.Tab.0.center" timestamp="1595246420100">
+    <state width="1748" height="300" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1595256362502" />
+    <state width="1748" height="300" key="GridCell.Tab.0.center" timestamp="1595256362501">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="1748" height="300" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1595246420100" />
-    <state width="1748" height="300" key="GridCell.Tab.0.left" timestamp="1595246420100">
+    <state width="1748" height="300" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1595256362501" />
+    <state width="1748" height="300" key="GridCell.Tab.0.left" timestamp="1595256362501">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="1748" height="300" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1595246420100" />
-    <state width="1748" height="300" key="GridCell.Tab.0.right" timestamp="1595246420100">
+    <state width="1748" height="300" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1595256362501" />
+    <state width="1748" height="300" key="GridCell.Tab.0.right" timestamp="1595256362502">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="1748" height="300" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1595246420100" />
+    <state width="1748" height="300" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1595256362502" />
     <state x="430" y="196" key="SettingsEditor" timestamp="1594944970795">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -362,12 +373,12 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="500" height="446" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1595087886394" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595202987010">
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595246471238">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588859090708" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589990681412" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595202987010" />
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595246471238" />
     <state x="678" y="167" key="new project wizard" timestamp="1589205600497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
