@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.115 연습문제 3-2 풀이 안함.">
+    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.123 자연 정렬로 정렬된 배열에서 검색하기 전">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
       <recent name="C:\Users\Yang\IdeaProjects\learning_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IdTester">
-    <configuration name="BinSearchEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.BinSearchEx" />
-      <module name="learning_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.chap03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringBinarySearch">
     <configuration name="BinSearchX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.BinSearchX" />
       <module name="learning_algorithm" />
@@ -116,20 +103,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.StringBinarySearch" />
+      <module name="learning_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.chap03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BinSearchEx" />
       <item itemvalue="Application.BinSearchX" />
       <item itemvalue="Application.BinarySearchTester" />
       <item itemvalue="Application.BinarySearchTestEx" />
       <item itemvalue="Application.IdTester" />
+      <item itemvalue="Application.StringBinarySearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBinarySearch" />
         <item itemvalue="Application.IdTester" />
         <item itemvalue="Application.BinarySearchTestEx" />
         <item itemvalue="Application.BinarySearchTester" />
         <item itemvalue="Application.BinSearchX" />
-        <item itemvalue="Application.BinSearchEx" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,8 @@
       <workItem from="1595255580758" duration="1534000" />
       <workItem from="1595287800397" duration="1207000" />
       <workItem from="1595311791088" duration="3172000" />
-      <workItem from="1595373508883" duration="2245000" />
+      <workItem from="1595373508883" duration="2372000" />
+      <workItem from="1595461702005" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1588771759194</created>
@@ -290,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595289869975</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="~ p.123 자연 정렬로 정렬된 배열에서 검색하기 전">
+      <created>1595375927253</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1595375927253</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +335,8 @@
     <MESSAGE value="~ p.110p" />
     <MESSAGE value="~ p.114p" />
     <MESSAGE value="~ p.115 연습문제 3-2 풀이 안함." />
-    <option name="LAST_COMMIT_MESSAGE" value="~ p.115 연습문제 3-2 풀이 안함." />
+    <MESSAGE value="~ p.123 자연 정렬로 정렬된 배열에서 검색하기 전" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ p.123 자연 정렬로 정렬된 배열에서 검색하기 전" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="219" key="#Plugins" timestamp="1595257058159">
@@ -362,45 +371,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="258" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588771570153" />
-    <state width="852" height="300" key="GridCell.Tab.0.bottom" timestamp="1595375579442">
+    <state width="852" height="300" key="GridCell.Tab.0.bottom" timestamp="1595375943694">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977169" />
-    <state width="852" height="300" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1595375579442" />
-    <state width="852" height="300" key="GridCell.Tab.0.center" timestamp="1595375579441">
+    <state width="852" height="300" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1595375943694" />
+    <state width="852" height="300" key="GridCell.Tab.0.center" timestamp="1595375943694">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="852" height="300" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1595375579441" />
-    <state width="852" height="300" key="GridCell.Tab.0.left" timestamp="1595375579441">
+    <state width="852" height="300" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1595375943694" />
+    <state width="852" height="300" key="GridCell.Tab.0.left" timestamp="1595375943694">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="852" height="300" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1595375579441" />
-    <state width="852" height="300" key="GridCell.Tab.0.right" timestamp="1595375579442">
+    <state width="852" height="300" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1595375943694" />
+    <state width="852" height="300" key="GridCell.Tab.0.right" timestamp="1595375943694">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="852" height="300" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1595375579442" />
+    <state width="852" height="300" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1595375943694" />
     <state x="430" y="196" key="SettingsEditor" timestamp="1594944970795">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588771497789" />
     <state x="430" y="196" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1594944970795" />
+    <state x="1074" y="310" width="540" height="524" key="StructurePopup" timestamp="1595461841841">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="1074" y="310" width="540" height="524" key="StructurePopup/0.23.1792.1097@0.23.1792.1097" timestamp="1595461841841" />
     <state width="500" height="446" key="SwitcherDM" timestamp="1595087886394">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="500" height="446" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1595087886394" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595289874887">
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595375933384">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588859090708" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589990681412" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595289874887" />
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595375933384" />
     <state x="678" y="167" key="new project wizard" timestamp="1589205600497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
