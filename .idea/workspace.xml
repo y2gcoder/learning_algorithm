@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.124 보충수업 3-3 전">
+    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ 보충수업 3-4 전">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +50,9 @@
       <recent name="C:\Users\Yang\IdeaProjects\learning_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PhysExamSearchV">
-    <configuration name="BinarySearchTestEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.BinarySearchTestEx" />
+  <component name="RunManager" selected="Application.GenericClassTester">
+    <configuration name="GenericClassTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.GenericClassTester" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -117,19 +117,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearchTestEx" />
       <item itemvalue="Application.IdTester" />
       <item itemvalue="Application.StringBinarySearch" />
       <item itemvalue="Application.PhysExamSearch" />
       <item itemvalue="Application.PhysExamSearchV" />
+      <item itemvalue="Application.GenericClassTester" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericClassTester" />
         <item itemvalue="Application.PhysExamSearchV" />
         <item itemvalue="Application.PhysExamSearch" />
         <item itemvalue="Application.StringBinarySearch" />
         <item itemvalue="Application.IdTester" />
-        <item itemvalue="Application.BinarySearchTestEx" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +166,10 @@
       <workItem from="1595461702005" duration="821000" />
       <workItem from="1595480626016" duration="2434000" />
       <workItem from="1595547274432" duration="1064000" />
-      <workItem from="1595548479918" duration="452000" />
+      <workItem from="1595548479918" duration="593000" />
+      <workItem from="1595550901973" duration="48000" />
+      <workItem from="1595550958739" duration="3000" />
+      <workItem from="1595558500117" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1588771759194</created>
@@ -308,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595462434044</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="~ 보충수업 3-4 전">
+      <created>1595548993861</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595548993861</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,13 +357,14 @@
     <MESSAGE value="~ p.115 연습문제 3-2 풀이 안함." />
     <MESSAGE value="~ p.123 자연 정렬로 정렬된 배열에서 검색하기 전" />
     <MESSAGE value="~ p.124 보충수업 3-3 전" />
-    <option name="LAST_COMMIT_MESSAGE" value="~ p.124 보충수업 3-3 전" />
+    <MESSAGE value="~ 보충수업 3-4 전" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ 보충수업 3-4 전" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="219" key="#Plugins" timestamp="1595257058159">
+    <state x="496" y="219" key="#Plugins" timestamp="1595550946723">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="219" key="#Plugins/0.23.1792.1097@0.23.1792.1097" timestamp="1595257058159" />
+    <state x="496" y="219" key="#Plugins/0.23.1792.1097@0.23.1792.1097" timestamp="1595550946723" />
     <state x="384" y="152" key="#Project_Structure" timestamp="1594643004612">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -382,30 +393,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="258" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588771570153" />
-    <state width="1748" height="300" key="GridCell.Tab.0.bottom" timestamp="1595487509819">
+    <state width="852" height="300" key="GridCell.Tab.0.bottom" timestamp="1595549085740">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977169" />
-    <state width="1748" height="300" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1595487509819" />
-    <state width="1748" height="300" key="GridCell.Tab.0.center" timestamp="1595487509818">
+    <state width="852" height="300" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1595549085740" />
+    <state width="852" height="300" key="GridCell.Tab.0.center" timestamp="1595549085740">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="1748" height="300" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1595487509818" />
-    <state width="1748" height="300" key="GridCell.Tab.0.left" timestamp="1595487509818">
+    <state width="852" height="300" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1595549085740" />
+    <state width="852" height="300" key="GridCell.Tab.0.left" timestamp="1595549085739">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="1748" height="300" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1595487509818" />
-    <state width="1748" height="300" key="GridCell.Tab.0.right" timestamp="1595487509819">
+    <state width="852" height="300" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1595549085739" />
+    <state width="852" height="300" key="GridCell.Tab.0.right" timestamp="1595549085740">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="1748" height="300" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1595487509819" />
+    <state width="852" height="300" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1595549085740" />
     <state x="430" y="196" key="SettingsEditor" timestamp="1594944970795">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -419,20 +430,20 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="500" height="446" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1595087886394" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595462440411">
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595549002720">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588859090708" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589990681412" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595462440411" />
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595549002720" />
     <state x="678" y="167" key="new project wizard" timestamp="1589205600497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="678" y="167" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589205600497" />
-    <state x="581" y="260" width="670" height="716" key="search.everywhere.popup" timestamp="1595481501446">
+    <state x="581" y="260" width="670" height="716" key="search.everywhere.popup" timestamp="1595550910525">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588776046954" />
-    <state x="581" y="260" width="670" height="716" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1595481501446" />
+    <state x="581" y="260" width="670" height="716" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1595550910525" />
   </component>
 </project>
