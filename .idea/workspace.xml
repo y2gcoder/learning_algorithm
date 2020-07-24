@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.123 자연 정렬로 정렬된 배열에서 검색하기 전">
+    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.124 보충수업 3-3 전">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
       <recent name="C:\Users\Yang\IdeaProjects\learning_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringBinarySearch">
-    <configuration name="BinSearchX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.BinSearchX" />
-      <module name="learning_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.chap03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PhysExamSearchV">
     <configuration name="BinarySearchTestEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.BinarySearchTestEx" />
       <module name="learning_algorithm" />
@@ -77,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.BinarySearchTester" />
+    <configuration name="IdTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.IdTester" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +77,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.IdTester" />
+    <configuration name="PhysExamSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.PhysExamSearch" />
+      <module name="learning_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.chap03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhysExamSearchV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.chap03.PhysExamSearchV" />
       <module name="learning_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -117,19 +117,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinSearchX" />
-      <item itemvalue="Application.BinarySearchTester" />
       <item itemvalue="Application.BinarySearchTestEx" />
       <item itemvalue="Application.IdTester" />
       <item itemvalue="Application.StringBinarySearch" />
+      <item itemvalue="Application.PhysExamSearch" />
+      <item itemvalue="Application.PhysExamSearchV" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhysExamSearchV" />
+        <item itemvalue="Application.PhysExamSearch" />
         <item itemvalue="Application.StringBinarySearch" />
         <item itemvalue="Application.IdTester" />
         <item itemvalue="Application.BinarySearchTestEx" />
-        <item itemvalue="Application.BinarySearchTester" />
-        <item itemvalue="Application.BinSearchX" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,10 @@
       <workItem from="1595287800397" duration="1207000" />
       <workItem from="1595311791088" duration="3172000" />
       <workItem from="1595373508883" duration="2372000" />
-      <workItem from="1595461702005" duration="671000" />
+      <workItem from="1595461702005" duration="821000" />
+      <workItem from="1595480626016" duration="2434000" />
+      <workItem from="1595547274432" duration="1064000" />
+      <workItem from="1595548479918" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1588771759194</created>
@@ -298,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595375927253</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="~ p.124 보충수업 3-3 전">
+      <created>1595462434043</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1595462434044</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +346,8 @@
     <MESSAGE value="~ p.114p" />
     <MESSAGE value="~ p.115 연습문제 3-2 풀이 안함." />
     <MESSAGE value="~ p.123 자연 정렬로 정렬된 배열에서 검색하기 전" />
-    <option name="LAST_COMMIT_MESSAGE" value="~ p.123 자연 정렬로 정렬된 배열에서 검색하기 전" />
+    <MESSAGE value="~ p.124 보충수업 3-3 전" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ p.124 보충수업 3-3 전" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="219" key="#Plugins" timestamp="1595257058159">
@@ -347,10 +358,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="384" y="152" key="#Project_Structure/0.23.1792.1097@0.23.1792.1097" timestamp="1594643004612" />
-    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1595375746612">
+    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1595547857332">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1595375746612" />
+    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1595547857332" />
     <state x="389" y="243" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1595257114336">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -371,30 +382,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="258" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588771570153" />
-    <state width="852" height="300" key="GridCell.Tab.0.bottom" timestamp="1595375943694">
+    <state width="1748" height="300" key="GridCell.Tab.0.bottom" timestamp="1595487509819">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977169" />
-    <state width="852" height="300" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1595375943694" />
-    <state width="852" height="300" key="GridCell.Tab.0.center" timestamp="1595375943694">
+    <state width="1748" height="300" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1595487509819" />
+    <state width="1748" height="300" key="GridCell.Tab.0.center" timestamp="1595487509818">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="852" height="300" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1595375943694" />
-    <state width="852" height="300" key="GridCell.Tab.0.left" timestamp="1595375943694">
+    <state width="1748" height="300" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1595487509818" />
+    <state width="1748" height="300" key="GridCell.Tab.0.left" timestamp="1595487509818">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="852" height="300" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1595375943694" />
-    <state width="852" height="300" key="GridCell.Tab.0.right" timestamp="1595375943694">
+    <state width="1748" height="300" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1595487509818" />
+    <state width="1748" height="300" key="GridCell.Tab.0.right" timestamp="1595487509819">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1340" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588777190126" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590071977168" />
-    <state width="852" height="300" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1595375943694" />
+    <state width="1748" height="300" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1595487509819" />
     <state x="430" y="196" key="SettingsEditor" timestamp="1594944970795">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -408,20 +419,20 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="500" height="446" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1595087886394" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595375933384">
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595462440411">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588859090708" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589990681412" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595375933384" />
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595462440411" />
     <state x="678" y="167" key="new project wizard" timestamp="1589205600497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="678" y="167" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589205600497" />
-    <state x="581" y="260" width="670" height="716" key="search.everywhere.popup" timestamp="1595374865975">
+    <state x="581" y="260" width="670" height="716" key="search.everywhere.popup" timestamp="1595481501446">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588776046954" />
-    <state x="581" y="260" width="670" height="716" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1595374865975" />
+    <state x="581" y="260" width="670" height="716" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1595481501446" />
   </component>
 </project>
