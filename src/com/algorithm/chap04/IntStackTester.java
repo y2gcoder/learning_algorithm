@@ -1,4 +1,4 @@
-package com.algorithm.chap03;
+package com.algorithm.chap04;
 
 import java.util.Scanner;
 
