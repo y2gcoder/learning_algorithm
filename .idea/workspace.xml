@@ -5,10 +5,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.144 연습문제 전">
+    <list default="true" id="56eba61a-6c31-4a53-b16e-fe366bd936f2" name="Default Changelist" comment="~ p.144 연습문제 복기 전">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/chap03/IntStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/chap04/IntStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/chap03/IntStackTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/chap04/IntStackTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +173,9 @@
       <workItem from="1595581238672" duration="15000" />
       <workItem from="1595806078555" duration="76000" />
       <workItem from="1595806166224" duration="2739000" />
-      <workItem from="1595979419765" duration="2756000" />
+      <workItem from="1595979419765" duration="2802000" />
+      <workItem from="1596003165832" duration="3000" />
+      <workItem from="1596406941322" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1588771759194</created>
@@ -338,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595810135311</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="~ p.144 연습문제 복기 전">
+      <created>1595982280165</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1595982280165</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +387,8 @@
     <MESSAGE value="~ 보충수업 3-4 전" />
     <MESSAGE value="~ p.132 스택과 큐 전" />
     <MESSAGE value="~ p.144 연습문제 전" />
-    <option name="LAST_COMMIT_MESSAGE" value="~ p.144 연습문제 전" />
+    <MESSAGE value="~ p.144 연습문제 복기 전" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ p.144 연습문제 복기 전" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="219" key="#Plugins" timestamp="1595550946723">
@@ -391,10 +399,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="384" y="152" key="#Project_Structure/0.23.1792.1097@0.23.1792.1097" timestamp="1594643004612" />
-    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1595981212029">
+    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1596407269811">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1595981212029" />
+    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1596407269811" />
     <state x="389" y="243" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1595257114336">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -452,12 +460,12 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="500" height="446" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1595087886394" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595810140842">
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2" timestamp="1595982286544">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588859090708" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589990681412" />
-    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595810140842" />
+    <state x="515" y="289" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595982286544" />
     <state x="678" y="167" key="new project wizard" timestamp="1589205600497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
